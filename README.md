@@ -4,7 +4,7 @@ To moja pierwsza aplikacja zbudowana w Streamlit i wdrożona na DigitalOcean. Po
 
 ## Jak korzystać z aplikacji
 
-Wpisz w polu tekstowym swoją płeć, wiek i typowy czas biegu na 5 km. Możesz napisać to zwyczajnie, na przykład: „Mam 34 lata, jestem kobietą i przebiegam 5 km w 26 minut”.
+Wpisz w polu tekstowym swoją płeć, wiek i typowy czas biegu na 5 km. Możesz napisać to zwyczajnie, na przykład: „Jestem facetem, mam 42 lata, 5 km biegnę w 28 minut”.
 
 Aplikacja odczyta te trzy informacje. Jeśli którejś zabraknie, pokaże, co trzeba uzupełnić. Gdy dane są kompletne, model oszacuje czas półmaratonu i wyświetli go w godzinach, minutach i sekundach.
 

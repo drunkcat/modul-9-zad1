@@ -226,7 +226,7 @@ st.markdown(
     """
     <div class="hint-card">
       <strong>Opisz się jednym zdaniem.</strong><br>
-      Możesz napisać na przykład: „Mam 34 lata, jestem kobietą i przebiegam 5 km w 26 minut”.
+      Możesz napisać na przykład: „Jestem facetem, mam 42 lata, 5 km biegnę w 28 minut”.
       System odczyta z wypowiedzi potrzebne dane.
     </div>
     """,
