@@ -304,3 +304,6 @@ with st.expander("Jak powstaje prognoza?"):
         "Model regresyjny wytrenowany na historycznych wynikach zawodów wykorzystuje je "
         "do oszacowania czasu ukończenia półmaratonu. Wynik ma charakter orientacyjny."
     )
+
+
+st.caption("ver. 1.0")
