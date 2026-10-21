@@ -306,4 +306,4 @@ with st.expander("Jak powstaje prognoza?"):
     )
 
 
-st.caption("ver. 1.0")
+st.caption("ver. 1.1")
