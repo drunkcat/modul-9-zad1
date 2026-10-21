@@ -13,6 +13,8 @@ from langfuse.types import MaskOtelSpansParams, MaskOtelSpansResult, OtelSpanPat
 from openai import OpenAI as OpenAIClient
 from pydantic import BaseModel
 
+import logging
+
 load_dotenv()
 
 MODEL_OBJECT_KEY = "models/halfmarathon_gradient_boosting_v1.joblib"
@@ -293,7 +295,8 @@ if submitted:
                 )
                 st.caption("To przybliżenie oparte na wynikach historycznych. Średni błąd modelu testowego wynosi około 5 minut.")
         except Exception:
-            st.error("Nie udało się przygotować prognozy. Sprawdź konfigurację usług i spróbuj ponownie.")
+            logging.exception("Nie udało się przygotować prognozy")
+            st.error("Nie udało się przygotować prognozy. Sprawdź logi aplikacji.")
 
 with st.expander("Jak powstaje prognoza?"):
     st.write(
